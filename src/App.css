@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body,html {
+   margin: 0;
+   padding: 0;
+}
+* {
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #A7F3D0;
+   font-family: 'Montserrat', sans-serif;
+   color: white
+}
+
 .App {
   text-align: center;
+  width: 80%;
+  margin: auto;
+  background-color: #059669;
+  height: 100vh;
+  padding: 2rem;
 }
 
 .App-logo {
@@ -35,4 +56,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.heading{
+   text-align: center;
+}
+
+ul{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0;
+}
+
+li{
+   list-style-type: none;
+   padding: 1rem;
+   font-size: 2rem;
+}
+
+li:hover {
+   background-color: cadetblue;
+}
+
+.searchBar{
+   padding: 1rem;
+   width: 80%;
 }
